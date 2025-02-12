@@ -36,7 +36,7 @@ public class demo {
                     else if(nums[mid] < target){
                         left = mid +1;
                     }
-                    else{
+                    else {
                         right = mid - 1;
                     }
                 }
